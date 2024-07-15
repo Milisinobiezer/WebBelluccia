@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>detalle - FlexStart Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Styles -->
+ <style>
+    #Titulo {
+        font-family: var(--heading-font);
+        font-size: 70px;
+        color: #ff00bf !important;
+        padding: 0px;
+        margin-bottom: -25px;
+      }
+
+    #Subtitulo {
+        font-family: var(--heading-font);
+        font-size: 25px;
+        color: #000000 !important;
+        padding: 0px;
+        margin-bottom: 10px;
+      }
+
+      /* MOBILE */
+      @media (max-width: 767px) {
+      #Titulo {
+       font-size: 45px; /* Ajuste de tamaño de fuente para móviles */
+       margin-bottom: 10px; /* Ajuste de margen inferior para móviles */
+       }
+
+      #Subtitulo {
+       font-size: 15px; /* Ajuste de tamaño de fuente para móviles */
+       margin-bottom: 5px; /* Ajuste de margen inferior para móviles */
+      }
+      }
+      
+    #Lista {
+        font-family: var(--default-font);
+        font-size: 20px;
+        color: #000000;
+        padding: 0px;
+        margin-bottom: 5px; /* Ajusta el espacio entre los elementos */
+    }
+      /* MOBILE */
+      @media (max-width: 767px) {
+      #Lista {
+       font-size: 15px; /* Ajuste de tamaño de fuente para móviles */
+       margin-bottom: 0px; /* Ajuste de margen inferior para móviles */
+       }
+       }
+
+    #Listault {
+        font-family: var(--default-font);
+        font-size: 20px;
+        color: #000000;
+        padding: 0px;
+        margin-bottom: 70px; /* Ajusta el espacio entre los elementos */
+    }
+
+       /* MOBILE */
+      @media (max-width: 767px) {
+      #Listault {
+       font-size: 15px; /* Ajuste de tamaño de fuente para móviles */
+       margin-bottom: 30px; /* Ajuste de margen inferior para móviles */
+       }
+       }
+
+    #Reina {
+        font-family: var(--heading-font);
+        font-size: 40px;
+        color: #00FF47 !important;
+        padding: -10px;
+        margin-bottom: 0px;
+    }
+
+      /* MOBILE */
+      @media (max-width: 767px) {
+      #Reina {
+       font-size: 40px; /* Ajuste de tamaño de fuente para móviles */
+       line-height: 1;
+       margin-bottom: 30px; /* Ajuste de margen inferior para móviles */
+       }
+       }
+
+  #Cursos {
+      font-family: var(--heading-font);
+      font-size: 35px;
+      color: #ff00bf !important;
+      padding: 0px;
+      margin-bottom: 0px;
+  }
+
+  #Profes {
+      font-family: var(--heading-font);
+      font-size: 20px;
+      color: #ff00bf !important;
+      padding: 0px;
+      margin-bottom: 10px;
+  }
+
+  #Caro {
+      font-family: var(--heading-font);
+      font-size: 25px;
+      color: #000000 !important;
+      padding: 0px;
+      margin-bottom: 10px;
+  }
+
+
+ </style>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@900&family=Overpass+Mono:wght@300..700&display=swap;" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="detalle-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="detalle.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" alt="">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="/Users/milagrossinobiezer/Desktop/entrega/home.html">INICIO<br></a></li>
+          <li><a href="#about">COMPRÁ</a></li>
+          <li><a href="#services">DONÁ</a></li>
+          <li><a href="#portfolio">VENDÉ</a></li>
+          <li><a href="#team">NOSOTROS</a></li>
+          <li class="dropdown"><a href="#"><span>CURSOS</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">TALLER ECOVOZ</a></li>
+              <li><a href="#">TALLER MODA 101</a></li>
+              <li><a href="#">CURSO DOSMILERA</a></li>
+            </ul>
+          <li><a href="#contact">CONTACTO</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <a class="btn-getstarted flex-md-shrink-0" href="detalle.html">INICIÁ SESIÓN</a>
+    </div>
+  </header>
+
+  <main class="main">
+
+ <!-- seccion1 Section -->
+    <section id="seccion1" class="seccion1 section">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                    <p id="Titulo" data-aos="fade-up">TALLER ECOVOZ</p>
+                    <p id="Subtitulo" data-aos="fade-up">MODALIDAD: HÍBRIDA // PRECIO: $10.000</p>
+                    <div class="d-flex flex-column aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                        <p id="Lista"><img src="assets/img/hobbie/check2-square.svg" alt="" height="20"> Acceso exclusivo a guías y tutoriales</p>
+                        <p id="Lista"><img src="assets/img/hobbie/check2-square.svg" alt="" height="20"> Eventos, talleres y charlas especiales</p>
+                        <p id="Listault"><img src="assets/img/hobbie/check2-square.svg" alt="" height="20"> Certificación al completar el curso</p>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
+                        <a href="#about" class="btn-get-started">COMPRAR <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 seccion1-img" data-aos="zoom-out">
+                    <img src="assets/img/GIF-FINAL-CURSO.gif" class="img-fluid animated" alt="">
+                </div>
+            </div>
+        </div>
+    </section><!-- seccion1 Section -->
+
+  <!-- seccion2 Section -->
+    <section id="seccion2" class="seccion2 section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <img src="assets/img/uno.svg" class="img-fluid" alt="">
+              <h3>UBICACIÓN</h3>
+              <p>El  taller es de modalidad híbrida, con cinco clases presenciales (en nuestro taller en Palermo), y cinco virtuales ("Meet" de Google).</p>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <img src="assets/img/dos.svg" class="img-fluid" alt="">
+              <h3>DURACIÓN</h3>
+              <p>El taller EcoVoz se lleva a cabo en el mes de Junio, contando con 2 clases semanales (Lun. Jue de 19:00 a 21:30hs)y 10 contenidos.</p>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img src="assets/img/tres.svg" class="img-fluid" alt="">
+              <h3>INFO EXTRA</h3>
+              <p>¡¡¡No se necesita saber coser, anotate sin miedo!!! El calendario del curso lo encuentran en nuestro Instagram (@CirculoVerde).</p>
+            </div>
+          </div><!-- End Card Item -->
+
+        </div>
+
+      </div>
+
+  </section><!-- seccion2 Section -->
+
+  <!-- seccion3 Section -->
+     <section id="seccion3" class="seccion3 section">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>TU PROFE</h3>
+              <p id="Caro" data-aos="fade-up">CAROLINA MARGIELA,</p>
+              <p id="Reina" data-aos="fade-up">LA REINA DEL UPCYCLING</p>
+
+              <p> El taller EcoVoz es dictado por Carolina Margiela, una reconocida diseñadora de moda sostenible con años de experiencia en la industria. <p>
+
+              <p>Carolina es conocida por su enfoque innovador y comprometido con la sostenibilidad, y ha trabajado con numerosas marcas ecológicas y proyectos de moda ética. Su conocimiento profundo de los materiales ecológicos y las técnicas de fabricación ética, junto con su pasión por la moda verde, la convierten en la instructora ideal para este curso.</p>
+
+              <div class="text-center text-lg-start">
+                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>CONOCELA</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/carolina.jpeg" class="img-fluid" alt style="
+                border: 3px black solid;">
+          </div>
+
+        </div>
+      </div>
+
+  </section><!-- seccion3 Section -->
+
+  <!-- seccion4 Section -->
+    <section id="seccion4" class="seccion4 section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="seccion4-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="548" data-purecounter-duration="1" class="purecounter"></span>
+                <p>CURSOS VENDIDOS</p>
+              </div>
+            </div>
+          </div><!-- End seccion4 Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="seccion4-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-journal-richtext color-orange flex-shrink-0" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                <p>PROYECTOS</p>
+              </div>
+            </div>
+          </div><!-- End seccion4 Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="seccion4-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-headset color-green flex-shrink-0" style="color: #15be56;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+                <p>HS. DE CONTENIDO</p>
+              </div>
+            </div>
+          </div><!-- End seccion4 Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="seccion4-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-people color-pink flex-shrink-0" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                <p>COLABORADORES</p>
+              </div>
+            </div>
+          </div><!-- End seccion4 Item -->
+
+        </div>
+
+      </div>
+  </section><!-- seccion4 Section -->
+
+  <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>¿QUE VAMOS A VER?</h2>
+        <p>CONTENIDOS DEL TALLER ECOVOZ</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active">
+                <h3> 1.   Intro a la Moda Sostenible.</h3>
+                <div class="faq-content">
+                  <p>Modulo introductorio a los principios básicos de la moda sostenible, incluyendo su historia, la importancia de prácticas responsables en la industria textil, y los beneficios ambientales y sociales de adoptar un enfoque sostenible en el diseño y la producción de ropa; preparando a los participantes para liderar proyectos innovadores en el sector de la moda con un enfoque ético y consciente.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3> 2. Materiales Ecológicos</h3>
+                <div class="faq-content">
+                  <p>En el módulo "Materiales Ecológicos" se estudian los diversos tipos de materiales sostenibles, su impacto ambiental, y cómo su uso en la industria de la moda contribuye a la reducción de la huella ecológica, promoviendo prácticas más responsables y beneficiosas para el medio ambiente.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3> 3. Diseño de Moda Verde</h3>
+                <div class="faq-content">
+                  <p>El módulo "Diseño de Moda Verde" se dedica a explorar cómo el diseño de moda puede integrar de manera efectiva prácticas sostenibles y responsables. Los participantes aprenderán a utilizar materiales ecológicos, adoptar técnicas de fabricación éticas que reduzcan el impacto ambiental, y aplicar principios de economía circular para promover la reutilización y el reciclaje en la industria textil. Además, se enfatiza la importancia de la innovación y la tecnología como herramientas clave para desarrollar diseños estéticos y funcionales que también contribuyan positivamente al medio ambiente.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3> 4. Técnicas de Fabricación Ética</h3>
+                <div class="faq-content">
+                  <p>El módulo "Técnicas de Fabricación Ética" se enfoca en profundizar en las prácticas de producción dentro de la industria de la moda, asegurando que los participantes comprendan y apliquen métodos que no solo garanticen la calidad del producto final, sino también que promuevan condiciones laborales justas y seguras. Los estudiantes explorarán cómo integrar estándares éticos en cada etapa del proceso de fabricación, desde la selección de materiales hasta la gestión de residuos, con un enfoque en minimizar el impacto ambiental y contribuir positivamente al bienestar de los trabajadores y las comunidades involucradas en la cadena de suministro.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3> 5. Economía Circular en la Moda</h3>
+                <div class="faq-content">
+                  <p>El módulo "Economía Circular en la Moda" introduce conceptos y estrategias para transformar la industria textil hacia un modelo sostenible, enfocándose en la reutilización, reciclaje y diseño de productos que minimicen residuos y maximicen el uso de recursos naturales, preparando a los participantes para innovar dentro de un marco de economía circular en el diseño y fabricación de prendas de vestir.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div><!-- End Faq Column-->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="faq-container">
+
+              <div class="faq-item">
+                <h3> 6. Colorantes y Acabados Sostenibles</h3>
+                <div class="faq-content">
+                  <p>El módulo "Colorantes y Acabados Sostenibles" se centra en el estudio y la aplicación de métodos de tintura y acabado que minimizan el impacto ambiental, promoviendo el uso de técnicas y materiales que reducen el consumo de agua y productos químicos nocivos en la industria textil, capacitando a los participantes para adoptar prácticas responsables y innovadoras en el diseño de prendas de moda sostenible.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3> 7. Marketing y Comunicación de Moda Sostenible</h3>
+                <div class="faq-content">
+                  <p>El módulo "Marketing y Comunicación de Moda Sostenible" explora estrategias efectivas para promover y posicionar productos de moda que integren prácticas sostenibles y éticas, abordando desde la identificación de mercados responsables hasta la creación de mensajes que resalten los valores de sostenibilidad, preparando a los participantes para comunicar de manera impactante y auténtica en la industria de la moda contemporánea.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3> 8. Certificaciones y Normativas</h3>
+                <div class="faq-content">
+                  <p>El módulo "Certificaciones y Normativas" proporciona un estudio detallado sobre los estándares y regulaciones internacionales en la industria de la moda sostenible, capacitando a los participantes en la comprensión y aplicación de certificaciones que validen prácticas éticas y ambientalmente responsables, preparándolos para cumplir con normativas y diferenciar productos en un mercado cada vez más consciente y regulado.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3> 9. Innovación y Tecnología en la Moda Sostenible</h3>
+                <div class="faq-content">
+                  <p>El módulo "Innovación y Tecnología en la Moda Sostenible" explora las últimas tendencias y avances tecnológicos aplicados a la industria textil, enfocándose en desarrollar soluciones innovadoras que mejoren la sostenibilidad y eficiencia en la producción, desde el diseño hasta la fabricación y distribución de prendas, preparando a los participantes para liderar proyectos que integren tecnología de vanguardia con prácticas sostenibles en el contexto de la moda contemporánea.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3> 10. Proyecto Final y Evaluación</h3>
+                <div class="faq-content">
+                  <p>El módulo "Proyecto Final y Evaluación" constituye la etapa culminante del curso, donde los participantes tienen la oportunidad de integrar de manera práctica todos los aprendizajes obtenidos en áreas como diseño sostenible, técnicas de fabricación ética, economía circular, uso de colorantes y acabados sostenibles, entre otros. A través de este proyecto, los estudiantes desarrollan propuestas innovadoras de moda que no solo cumplen con altos estándares de calidad y estética, sino que también están alineadas con principios de responsabilidad social y ambiental. La evaluación del proyecto final no solo valora la creatividad y el diseño, sino también la capacidad de los participantes para abordar desafíos contemporáneos de manera ética y sostenible, preparándolos para hacer una contribución significativa y positiva en la industria de la moda.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+
+            </div>
+
+          </div><!-- End Faq Column-->
+
+        </div>
+
+      </div>
+
+  </section><!-- /Faq Section -->
+
+  <!-- seccion5 Section -->
+    <section id="seccion5" class="seccion5 section">
+
+          <!-- Section Title -->
+          <div class="container section-title" data-aos="fade-up">
+            <h2>CHARLAS QUE DAN QUE HABLAR</h2>
+            <p>CHARLAS EXCLUSIVAS DEL TALLER</p>
+          </div><!-- End Section Title -->
+    
+          <div class="container">
+    
+            <div class="row gy-5">
+    
+              <div class="col-xl-4 col-md-6">
+                <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
+    
+                  <div class="post-img position-relative overflow-hidden">
+                    <img src="assets/img/blog/julia.jpeg" class="img-fluid" alt="">
+                    <span class="post-date">VIRTUAL</span>
+                  </div>
+    
+                  <div class="post-content d-flex flex-column">
+    
+                    <h3 class="post-title">COMO EMPECE MI NEGOCIO CON SOLAMENTE $100 PESOS</h3>
+    
+                    <div class="meta d-flex align-items-center">
+                      <div class="d-flex align-items-center">
+                        <i class="bi bi-person"></i> <span class="ps-2">Julia Barco</span>
+                      </div>
+                      <span class="px-3 text-black-50">/</span>
+                      <div class="d-flex align-items-center">
+                        <i class="bi bi-folder2"></i> <span class="ps-2">Técnicas de fabricación etica</span>
+                      </div>
+                    </div>
+    
+                    <hr>
+    
+                    <a class="readmore stretched-link"><span>LEE MÁS</span><i class="bi bi-arrow-right"></i></a>
+    
+                  </div>
+    
+                </div>
+              </div><!-- End post item -->
+    
+              <div class="col-xl-4 col-md-6">
+                <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
+    
+                  <div class="post-img position-relative overflow-hidden">
+                    <img src="assets/img/blog/MARIO.jpeg" class="img-fluid" alt="">
+                    <span class="post-date">PRESENCIAL</span>
+                  </div>
+    
+                  <div class="post-content d-flex flex-column">
+    
+                    <h3 class="post-title">AL QUE QUIERA CELESTE QUE LE CUESTE (LITERAL)</h3>
+    
+                    <div class="meta d-flex align-items-center">
+                      <div class="d-flex align-items-center">
+                        <i class="bi bi-person"></i> <span class="ps-2">Mario Peré</span>
+                      </div>
+                      <span class="px-3 text-black-50">/</span>
+                      <div class="d-flex align-items-center">
+                        <i class="bi bi-folder2"></i> <span class="ps-2">Colorantes sostenibles</span>
+                      </div>
+                    </div>
+    
+                    <hr>
+    
+                    <a class="readmore stretched-link"><span>LEE MÁS</span><i class="bi bi-arrow-right"></i></a>
+    
+                  </div>
+    
+                </div>
+              </div><!-- End post item -->
+    
+              <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="post-item position-relative h-100">
+    
+                  <div class="post-img position-relative overflow-hidden">
+                    <img src="assets/img/blog/martina .jpeg" class="img-fluid" alt="">
+                    <span class="post-date">VIRTUAL</span>
+                  </div>
+    
+                  <div class="post-content d-flex flex-column">
+    
+                    <h3 class="post-title"> CHAN! ME COPIARON MI DISEÑO ¿AHORA QUE HAGO?</h3>
+    
+                    <div class="meta d-flex align-items-center">
+                      <div class="d-flex align-items-center">
+                        <i class="bi bi-person"></i> <span class="ps-2">Mar y Jud </span>
+                      </div>
+                      <span class="px-3 text-black-50">/</span>
+                      <div class="d-flex align-items-center">
+                        <i class="bi bi-folder2"></i> <span class="ps-2">Certificaciones y normativas</span>
+                      </div>
+                    </div>
+    
+                    <hr>
+    
+                    <a class="readmore stretched-link"><span>LEE MÁS</span><i class="bi bi-arrow-right"></i></a>
+    
+                  </div>
+    
+                </div>
+              </div><!-- End post item -->
+    
+            </div>
+    
+          </div>
+    
+  </section><!-- seccion5 Section -->
+
+  <!-- Testimonials Section -->
+     <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>USTEDES</h2>
+        <p>NUESTROS EX ALUMNOS<br></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  ¡Increíble experiencia! EcoVoz me ha permitido entender profundamente cómo integrar la sostenibilidad en mi negocio. Los módulos son claros y prácticos, perfectos para cualquier emprendedor comprometido con el medio ambiente.</p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/celeste.jpeg" class="testimonial-img" alt="">
+                  <h3>Rosana Martinez</h3>
+                  <h4>Emprendedora</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Como diseñadora, buscaba un curso que no solo me enseñara técnicas de moda sostenible, sino también cómo certificar mis productos. Eco Voz Círculo Verde superó mis expectativas con contenido actualizado y relevante para el mercado actual.</p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/luisa.jpeg" class="testimonial-img" alt="">
+                  <h3>Ana Rodriguez</h3>
+                  <h4>Diseñadora</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Una experiencia enriquecedora y transformadora. Eco Voz Círculo Verde no solo me enseñó la importancia de la economía circular, sino que me dio herramientas prácticas para liderar proyectos sostenibles en mi comunidad. ¡Gracias por esta oportunidad!</p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/sofia.jpeg" class="testimonial-img" alt="">
+                  <h3> Luisa Mataz</h3>
+                  <h4>Estudiante</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Recomiendo totalmente Eco Voz Círculo Verde. Aprendí técnicas innovadoras para diseñar productos ecológicos y cómo comunicar su impacto positivo. El equipo de instructores es experto y accesible, ¡una inversión que vale la pena!
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/pablo.jpeg" class="testimonial-img" alt="">
+                  <h3>Juan Tercas</h3>
+                  <h4>Estudiante</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Me encanta Círculo Verde porque hacen magia con el upcycling. Transforman materiales reciclados en prendas únicas que no solo se ven geniales, sino que también cuidan el planeta. Me gusta su estilo y cómo logran combinar diseño y sostenibilidad.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/mercedes.jpeg" class="testimonial-img" alt="">
+                  <h3>Mora Fernandez</h3>
+                  <h4>Comerciante</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+  </section><!-- /Testimonials Section -->
+
+  <!-- Clients Section -->
+        <section id="seccion6" class="seccion6 section">
+
+          <!-- Section Title -->
+          <div class="container section-title" data-aos="fade-up">
+            <h2>LA TARASCA, LA BIYUYA</h2>
+            <p>METODOS DE PAGO<br></p>
+          </div><!-- End Section Title -->
+    
+          <div class="container" data-aos="fade-up" data-aos-delay="100">
+    
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  },
+                  "breakpoints": {
+                    "320": {
+                      "slidesPerView": 2,
+                      "spaceBetween": 40
+                    },
+                    "480": {
+                      "slidesPerView": 3,
+                      "spaceBetween": 60
+                    },
+                    "640": {
+                      "slidesPerView": 4,
+                      "spaceBetween": 80
+                    },
+                    "992": {
+                      "slidesPerView": 6,
+                      "spaceBetween": 120
+                    }
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide"><img src="assets/img/clients/visa.png" class="img-fluid" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/clients/Amex.png" class="img-fluid" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/clients/Mast.png" class="img-fluid" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/clients/payp.png" class="img-fluid" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/clients/MercadoPago.png" class="img-fluid" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/clients/transferencia.png" class="img-fluid" alt=""></div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+    
+          </div>
+  </section><!-- /Clients Section -->
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>NUESTROS CURSOS</h2>
+      <p>EL APRENDIZAJE NO TIENE PRECIO<br></p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+      <div class="row gy-4 px-4">
+
+        <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+          <div class="pricing-tem">
+              <span class="featured">+ VENDIDO</span>
+              <p id="Cursos" data-aos="fade-up">TALLER ECOVOZ</p>
+              <div class="price"><sup>$</sup>10.000<span> ARS</span></div>
+              <div class="icon">
+                  <img src="assets/img/carolina.jpeg" style=" width: 350px; height: 277px;">
+              </div>
+              <ul>
+                <li id="Profes" data-aos="fade-up">CAROLINA MARGIELA</li>
+                  <li>Curso de modalidad híbrida y duracion mensual sobre diseño de moda sostenible, enseña sobre materiales ecológicos, técnicas de fabricación ética y diseño de moda verde.</li>
+              </ul>
+              <a href="#" class="btn-buy">COMPRAR</a>
+          </div>
+        </div><!-- End Pricing Item -->
+
+        <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
+          <div class="pricing-tem">
+            <p id="Cursos" data-aos="fade-up">TALLER MODA 101</p>
+            <div class="price"><sup>$</sup>15.000<span> ARS</span></div>
+            <div class="icon">
+              <img src="assets/img/moda 101.gif" style=" width: 350px; height: 277px;">
+            </div>
+            <ul>
+              <li id="Profes" data-aos="fade-up">BENJAMIN DOMINGO</li>
+              <li>Curso 100% virtual y remoto con duracion de 2 semanas, sobre diseño de moda sostenible. Enseña sobre materiales ecológicos, técnicas de fabricación ética y diseño de moda</li>
+            </ul>
+            <a href="#" class="btn-buy">COMPRAR</a>
+          </div>
+        </div><!-- End Pricing Item -->
+
+        <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400">
+          <div class="pricing-tem">
+            <p id="Cursos" data-aos="fade-up">CURSO DOSMILERA</p>
+            <div class="price"><sup>$</sup>8.600<span> ARS</span></div>
+            <div class="icon">
+              <img src="assets/img/dosmilera.jpeg" style=" width: 350px; height: 277px;">
+            </div>
+            <ul>
+              <li id="Profes" data-aos="fade-up">LOLA SAMBURA</li>
+              <li>Analiza y estudia el fenomeno de resurgencia de la iconica “moda 2000” en nuestro curso 100% presencial. Estilos, piezas icónicas y cómo adaptarlos con técnicas de upcycling. </li>
+            </ul>
+            <a href="#" class="btn-buy">COMPRAR</a>
+          </div>
+        </div><!-- End Pricing Item -->
+
+      </div><!-- End pricing row -->
+
+    </div>
+
+  </section><!-- /Pricing Section -->
+
+  <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>NO DUDES, LLAMANOS</h2>
+        <p>CONTACTANOS</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Dirección</h3>
+                  <p>Thames 1439,</p>
+                  <p>Palermo Soho, CABA</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Llamanos</h3>
+                  <p>+54 911 2302 0786</p>
+                  <p>+4357 0012</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Mail</h3>
+                  <p>CirculoVerde@gmail.com</p>
+                  <p>CirculoDevoluciones@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="500">
+                  <i class="bi bi-clock"></i>
+                  <h3>Horarios</h3>
+                  <p>Martes - Sábado</p>
+                  <p>11:00AM - 08:00PM</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Nombre" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Apellido" required="">
+                </div>
+
+                <div class="col-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Asunto" required="">
+                </div>
+
+                <div class="col-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Hola!" required=""></textarea>
+                </div>
+
+                <div class="col-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Tu mensaje fue enviado. Gracias!</div>
+
+                  <button type="submit">ENVIAR</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+   </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Nuestro Newsletter</h4>
+            <p>Suscribite y recibi alertas de nuevas campañas, lanzamientos y mas!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Suscribite"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Ya estas inscripto a nuestro Newsletter. Gracias!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="home.html" class="d-flex align-items-center">
+            <span class="sitename">CIRCULO VERDE</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Dona, recicla, aprende y rediseña tus prendas con nosotrxs.</p>
+            <p>Juntxs, estamos creando un futuro más verde y estiloso.</p>
+            <p class="mt-3"><strong>Telefono:</strong> <span>+54 911 2302 0786</span></p>
+            <p><strong>Mail:</strong> <span>CirculoVerde@gmail.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>MENU</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">INICIO</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">DONÁ</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">VENDÉ</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">COMPRÁ</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>NUESTROS SERVICIOS</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">UPCYCLING</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">NUESTRA COLECCIÓN</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">COLABORACIONES</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">CURSOS</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>CONTACTOS</h4>
+          <p>Thames 1439</p>
+          <p>Palermo Soho, CABA</p>
+          <p>ARGENTINA</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Circulo Verde.</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">Milagros Rocio Sinobiezer Sena</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
